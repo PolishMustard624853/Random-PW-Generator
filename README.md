@@ -11,3 +11,6 @@ Then, if the user did not choose any of the specified "lowercase", "uppercase", 
 Then, I couldn't get the password to appear on the page. I have to come back to this assignment and figure out what isn't working properly so that the user can have their generated password and be content with the page.
 
 Coming back to this assignment I believe I might have been committing to the wrong branch....
+
+<!-- Link to Webpage -->
+file:///C:/Users/polis/repos/JavaScript-Password-Generator/passwordGenerator.html

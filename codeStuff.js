@@ -7,21 +7,15 @@ let lowerCaseAlphabet = "abcdefghijklmnopqrstuvwxyz";
 let upperCaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 let randomNumbers = "0123456789";
 let specialCharacters = "!@#$%^&*(){}|?><";
-let genPassword = "";
-
-let confirmLength = "";
-let confirmLowerCaseAlphabet;
-let confirmUpperCaseAlphabet;
-let confirmSpecialCharacters;
-let confirmRandomNumbers;
+let randonPassword = "";
 
 // Prompt to confirm password paramaters 
 function generatePassword() {
+  // upon clicking generate password, user is prompted with this series of questions
   let confirmLength = (prompt("How many characters would you like your password to be? It can be contain anywhere between 8-128 characters"));
 
   while(confirmLength <= 7 || confirmLength >= 129) {
     alert("Password length must be between 8-128 characters Try again");
-    let confirmLength = (prompt("How many characters would you like your password to contain?"));
     } 
 
     alert(`Your password will have ${confirmLength} characters`);
