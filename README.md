@@ -13,4 +13,4 @@ Then, I couldn't get the password to appear on the page. I have to come back to 
 Coming back to this assignment I believe I might have been committing to the wrong branch....
 
 <!-- Link to Webpage -->
-file:///C:/Users/polis/repos/JavaScript-Password-Generator/passwordGenerator.html
+git 
